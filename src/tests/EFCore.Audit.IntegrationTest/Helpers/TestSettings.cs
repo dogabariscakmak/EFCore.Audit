@@ -1,4 +1,4 @@
-﻿namespace EFCore.Audit.IntegrationTest.Helpers
+namespace EFCore.Audit.IntegrationTest.Helpers
 {
     public class TestSettings
     {
