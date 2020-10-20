@@ -1,0 +1,12 @@
+﻿{
+  "TestSettings": {
+    "IsDockerComposeRequired": true,
+    "MssqlConnectionString": "Server=localhost,1433 ;User=sa;Password=P@ssw0rd123",
+    "DockerComposeFile": "dockercompose-integrationtest.yml",
+    "DockerComposeExePath": "C:\\Program Files\\Docker\\Docker\\resources\\bin\\docker-compose.exe",
+    "DockerWorkingDir": "D:\\OpenSourceProjects\\EFCore.Audit\\src\\tests\\EFCore.Audit.IntegrationTest",
+    "TestDataPersonFilePath": "testdata.json",
+    "TestDataAddressFilePath": "testdata.json",
+    "TestDataPersonAttributeFilePath": "testdata.json"
+  }
+}

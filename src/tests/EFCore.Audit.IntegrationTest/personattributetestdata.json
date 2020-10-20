@@ -1,0 +1,133 @@
+[
+  {
+    "Attribute": 1,
+    "AttributeValue": "Married",
+    "PersonId": "caf3feb5-730e-40a3-9610-404a17b0deba"
+  },
+  {
+    "Attribute": 3,
+    "AttributeValue": "Turkish",
+    "PersonId": "caf3feb5-730e-40a3-9610-404a17b0deba"
+  },
+  {
+    "Attribute": 1,
+    "AttributeValue": "Single",
+    "PersonId": "ccde24c0-33e4-4cad-b68b-ac457aef74de"
+  },
+  {
+    "Attribute": 3,
+    "AttributeValue": "German",
+    "PersonId": "ccde24c0-33e4-4cad-b68b-ac457aef74de"
+  },
+  {
+    "Attribute": 1,
+    "AttributeValue": "Married",
+    "PersonId": "2a580a65-a4a0-458b-9034-acf100ad33c8"
+  },
+  {
+    "Attribute": 2,
+    "AttributeValue": "Software Developer",
+    "PersonId": "2a580a65-a4a0-458b-9034-acf100ad33c8"
+  },
+  {
+    "Attribute": 2,
+    "AttributeValue": "Doctor",
+    "PersonId": "ce121dc0-d629-4f4b-9d34-0a5f3fc37674"
+  },
+  {
+    "Attribute": 3,
+    "AttributeValue": "British",
+    "PersonId": "ce121dc0-d629-4f4b-9d34-0a5f3fc37674"
+  },
+  {
+    "Attribute": 1,
+    "AttributeValue": "Married",
+    "PersonId": "ce121dc0-d629-4f4b-9d34-0a5f3fc37674"
+  },
+  {
+    "Attribute": 2,
+    "AttributeValue": "Police",
+    "PersonId": "f5a97d89-096c-4d0f-a4c4-c2fc2921a176"
+  },
+  {
+    "Attribute": 3,
+    "AttributeValue": "Italien",
+    "PersonId": "f5a97d89-096c-4d0f-a4c4-c2fc2921a176"
+  },
+  {
+    "Attribute": 2,
+    "AttributeValue": "Fire Fighter"
+  },
+  {
+    "Attribute": 2,
+    "AttributeValue": "Designer"
+  },
+  {
+    "Attribute": 1,
+    "AttributeValue": "Single"
+  },
+  {
+    "Attribute": 2,
+    "AttributeValue": "Teacher"
+  },
+  {
+    "Attribute": 3,
+    "AttributeValue": "Russian"
+  },
+  {
+    "Attribute": 3,
+    "AttributeValue": "Spanish"
+  },
+  {
+    "Attribute": 2,
+    "AttributeValue": "Manager"
+  },
+  {
+    "Attribute": 3,
+    "AttributeValue": "Polish"
+  },
+  {
+    "Attribute": 2,
+    "AttributeValue": "CTO"
+  },
+  {
+    "Attribute": 3,
+    "AttributeValue": "Arabic"
+  },
+  {
+    "Attribute": 3,
+    "AttributeValue": "Dutch"
+  },
+  {
+    "Attribute": 3,
+    "AttributeValue": "American"
+  },
+  {
+    "Attribute": 3,
+    "AttributeValue": "Mexica"
+  },
+  {
+    "Attribute": 2,
+    "AttributeValue": "CEO"
+  },
+  {
+    "Attribute": 1,
+    "AttributeValue": "Married"
+  },
+  {
+    "Attribute": 2,
+    "AttributeValue": "Nurse"
+  },
+  {
+    "Attribute": 2,
+    "AttributeValue": "Project Manager"
+  },
+  {
+    "Attribute": 3,
+    "AttributeValue": "Japanese"
+  },
+  {
+    "Attribute": 3,
+    "AttributeValue": "Chinese"
+  }
+]
