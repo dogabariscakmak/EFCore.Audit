@@ -1,0 +1,13 @@
+﻿version: '3.4'
+
+services:
+  mssql:
+    image: mcr.microsoft.com/mssql/server:latest
+    container_name: mssql
+    ports:
+      - 1433:1433
+    restart: always
+    environment:
+      - MSSQL_PID=Express
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=P@ssw0rd123

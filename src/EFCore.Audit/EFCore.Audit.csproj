@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <UserSecretsId>d4d6a970-b96d-4c13-a4d5-b8f7a8de4448</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="3.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0" />
+  </ItemGroup>
+
+</Project>

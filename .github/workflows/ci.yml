@@ -1,0 +1,31 @@
+name: Continuous Integration
+
+on: 
+  push:
+    branches-ignore: master
+
+jobs:
+  continuous-integration:
+
+    runs-on: ubuntu-latest
+
+    env:
+      IS_GITHUB_ACTION: true
+
+    steps:
+    - name: Git checkout
+      uses: actions/checkout@v2
+    - name: Start MSSQL
+      run: docker-compose -f src/tests/EFCore.Audit.IntegrationTest/dockercompose-integrationtest.yml up -d
+    - name: Setup .NET Core
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 3.1.301
+    - name: Install dependencies
+      run: dotnet restore src/EFCore.Audit.sln
+    - name: Build
+      run: dotnet build src/EFCore.Audit.sln --configuration Release --no-restore
+    - name: Unit Test
+      run: dotnet test src/tests/EFCore.Audit.UnitTest --no-restore --verbosity normal
+    - name: Integration Test
+      run: dotnet test src/tests/EFCore.Audit.IntegrationTest --no-restore --verbosity normal
