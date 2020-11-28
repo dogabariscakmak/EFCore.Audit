@@ -3,10 +3,8 @@ using EFCore.Audit.TestCommon;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 using Newtonsoft.Json;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using Xunit;
 
@@ -67,7 +65,7 @@ namespace EFCore.Audit.IntegrationTest
                     context.Remove(personAttributesEntity2);
                     await context.SaveChangesAsync();
                 }
-                
+
                 using (var context = CreateContext(transaction))
                 {
                     //Assert
@@ -102,7 +100,7 @@ namespace EFCore.Audit.IntegrationTest
 
                     /************************************************************************************************************************/
 
-                    Assert.Single(audits, 
+                    Assert.Single(audits,
                                   (x => x.AuditMetaData != default && x.Id != default && x.EntityState == EntityState.Added
                                      && x.NewValues == "{\"Id\":\"caf3feb5-730e-40a3-9610-404a17b0deba\",\"FirstName\":\"Ofella\",\"Gender\":1,\"LastName\":\"Andrichuk\"}"
                                      && x.OldValues == default && x.ByUser != default && x.DateTimeOffset != default));
