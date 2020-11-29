@@ -65,7 +65,6 @@ namespace EFCore.Audit.IntegrationTest
                     context.Remove(personAttributesEntity2);
                     await context.SaveChangesAsync();
                 }
-
                 using (var context = CreateContext(transaction))
                 {
                     //Assert
@@ -100,7 +99,7 @@ namespace EFCore.Audit.IntegrationTest
 
                     /************************************************************************************************************************/
 
-                    Assert.Single(audits,
+                    Assert.Single(audits, 
                                   (x => x.AuditMetaData != default && x.Id != default && x.EntityState == EntityState.Added
                                      && x.NewValues == "{\"Id\":\"caf3feb5-730e-40a3-9610-404a17b0deba\",\"FirstName\":\"Ofella\",\"Gender\":1,\"LastName\":\"Andrichuk\"}"
                                      && x.OldValues == default && x.ByUser != default && x.DateTimeOffset != default));
